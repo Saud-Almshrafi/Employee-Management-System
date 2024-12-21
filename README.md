@@ -1,18 +1,26 @@
-## Getting Started
+# Employee Management System
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+The Employee Management System is designed to manage employees, departments, and tasks within an organization using Object-Oriented Programming (OOP) concepts and Data Structures for efficiency and flexibility.
 
-## Folder Structure
+## OOP Concepts Used
+The project is built using **Object-Oriented Programming (OOP) principles**, with several classes designed to represent different entities, such as:
+- `Employee`: A base class representing employees.
+- `HourlyEmployee`, `SalariedEmployee`, and `Manager`: Specialized classes inheriting from `Employee`.
+- `Task`: A class to manage tasks.
+- `Department`: A class to manage departments.
+- `TreeNode`: A generic class to represent the hierarchical organization structure.
 
-The workspace contains two folders by default, where:
+### Key OOP Features:
+1. **Inheritance:** Used to reduce redundancy and extend functionalities across classes.
+2. **Encapsulation:** Protecting data and restricting access through specific methods.
+3. **Polymorphism:** General methods that work with multiple types of employees.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Data Structures Used
+The project utilizes various data structures to ensure efficiency, including:
+- **List:** To store the list of employees.
+- **HashMap:** To associate departments with employees.
+- **PriorityQueue:** To manage tasks based on priority.
+- **TreeNode:** To represent the organization's hierarchy as a tree structure.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## UML Diagram
+![UML Diagram](UMLdigram.png)
