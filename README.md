@@ -8,7 +8,6 @@ The project is built using **Object-Oriented Programming (OOP) principles**, wit
 - `HourlyEmployee`, `SalariedEmployee`, and `Manager`: Specialized classes inheriting from `Employee`.
 - `Task`: A class to manage tasks.
 - `Department`: A class to manage departments.
-- `TreeNode`: A generic class to represent the hierarchical organization structure.
 
 ### Key OOP Features:
 1. **Inheritance:** Used to reduce redundancy and extend functionalities across classes.
@@ -20,7 +19,6 @@ The project utilizes various data structures to ensure efficiency, including:
 - **List:** To store the list of employees.
 - **HashMap:** To associate departments with employees.
 - **PriorityQueue:** To manage tasks based on priority.
-- **TreeNode:** To represent the organization's hierarchy as a tree structure.
 
 ## UML Diagram
 ![UML Diagram](UMLdigram.png)
